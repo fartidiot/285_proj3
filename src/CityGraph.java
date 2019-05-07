@@ -1,12 +1,11 @@
  /*
-  * Title:          PACKAGE_NAME
+  * Title:          Project 3
   * Authors:        Miles Maloney, Caden Keese
-  * Last Modified:  2019-05-02
-  * Description:
+  * Last Modified:  2019-05-06
+  * Description: An array of linked lists to model a graph, has the ability to use breadth first search
   * */
 
  import java.util.Arrays;
- import java.util.concurrent.TimeUnit;
 
  public class CityGraph {
      private String[] names;

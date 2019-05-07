@@ -3,10 +3,10 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 /*
- * Title:          PACKAGE_NAME
+ * Title:          Project 3
  * Authors:        Miles Maloney, Caden Keese
- * Last Modified:  2019-05-02
- * Description:
+ * Last Modified:  2019-05-06
+ * Description: Main user Interface
  * */
 public class Flights {
 
@@ -19,8 +19,8 @@ public class Flights {
         do {
             cityFile = requestFile(cityFile, kbd, true);
             flightFile = requestFile(flightFile, kbd, false);
-            System.out.println("cityFile = " + cityFile);
-            System.out.println("flightFile = " + flightFile);
+//            System.out.println("cityFile = " + cityFile);
+//            System.out.println("flightFile = " + flightFile);
             CityGraph cg = loadFiles(cityFile, flightFile);
 
 

@@ -1,8 +1,8 @@
  /*
-  * Title:          PACKAGE_NAME
+  * Title:          Project 3
   * Authors:        Miles Maloney, Caden Keese
-  * Last Modified:  2019-05-02
-  * Description:
+  * Last Modified:  2019-05-06
+  * Description: A modified node class to hold info
   * */
 
  public class CityEdge {

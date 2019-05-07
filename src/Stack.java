@@ -1,11 +1,10 @@
-import java.util.EmptyStackException;
-
 /*
- * Title:          PACKAGE_NAME
+ * Title:          Project 3
  * Authors:        Miles Maloney, Caden Keese
- * Last Modified:  2019-05-04
- * Description:
+ * Last Modified:  2019-05-06
+ * Description: A standard integer stack
  * */
+import java.util.EmptyStackException;
 class Node {
     private int index;
     private Node next;

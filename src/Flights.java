@@ -34,7 +34,8 @@ public class Flights {
                 }
             } while (getYN("Would you like to enter another origin and destination? (y/n)", kbd));
 
-
+            cityFile = null;
+            flightFile = null;
         } while (getYN("Would you like to use different city and flight files? (y/n)", kbd));
         System.out.println("Exiting...");
     }

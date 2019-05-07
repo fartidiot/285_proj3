@@ -1,0 +1,94 @@
+Script started on Tue May  7 00:33:38 2019
+]0;fish /Users/cadenkeese/documents/github/285_proj3[30m(B[mWelcome to fish, the friendly interactive shell
+[?2004h]7;file://Cadens-MacBook-Pro.local/Users/cadenkeese/documents/github/285_proj3]0;fish /Users/cadenkeese/documents/github/285_proj3[30m(B[m[2m⏎(B[m                                                                               ⏎ [Kcadenkeese@Cadens-MacBook-Pro [32m~/d/g/285_proj3[30m(B[m> [Kj[91mj[30m(B[m[38;5;240mava Flights[11D[30m(B[m[91ma[38;5;240mva Flights[10D[30m(B[m[91mv[38;5;240ma Flights[9D[30m(B[m[91ma[38;5;240m Flights[30m(B[m[1mjava(B[m[38;5;240m Flights[30m(B[m[1m (B[m[38;5;240mFlights[30m(B[m [38;5;240mFlights[30m(B[mFlights[36m[4mFlights[30m(B[m
+[30m(B[m[?2004l]0;java /Users/cadenkeese/documents/github/285_proj3[30m(B[mWhat is the name of the city file?
+cityFile
+What is the name of the flight file?
+flightFIle   ile
+What city do you want to fly from?
+Make sure to check case!
+Seattle
+What city do you want to fly to?
+Make sure to check case!
+Bend
+Request is to fly from Seattle to Bend
+  Seattle -> Escondido                  $426
+  Escondido -> Anaheim                  $426
+  Anaheim -> Clovis                     $968
+  Clovis -> Berkeley                    $866
+  Berkeley -> Tracy                     $985
+  Tracy -> Hayward                      $430
+  Hayward -> Burbank                    $711
+  Burbank -> Kirkland                   $116
+  Kirkland -> Moreno Valley             $108
+  Moreno Valley -> Norwalk              $318
+  Norwalk -> Santa Clara                $925
+  Santa Clara -> Huntington Beach       $645
+  Huntington Beach -> Hillsboro         $814
+  Hillsboro -> San Marcos               $145
+  San Marcos -> San Diego               $137
+  San Diego -> Bend                     $951
+Total Cost ............................ $8971
+Would you like to enter another origin and destination? (y/n)
+y
+What city do you want to fly from?
+Make sure to check case!
+Chico
+What city do you want to fly to?
+Make sure to check case!
+San Marcos
+Request is to fly from Chico to San Marcos
+  Chico -> Spokane                      $22
+  Spokane -> San Jose                   $659
+  San Jose -> Ventura                   $94
+  Ventura -> Hayward                    $19
+  Hayward -> Burbank                    $711
+  Burbank -> Kirkland                   $116
+  Kirkland -> Moreno Valley             $108
+  Moreno Valley -> Norwalk              $318
+  Norwalk -> Santa Clara                $925
+  Santa Clara -> Huntington Beach       $645
+  Huntington Beach -> Hillsboro         $814
+  Hillsboro -> San Marcos               $145
+Total Cost ............................ $4576
+Would you like to enter another origin and destination? (y/n)
+n
+Would you like to use different city and flight files? (y/n)
+y
+What is the name of the city file?
+cityFile
+What is the name of the flight file?
+FlightFile
+What city do you want to fly from?
+Make sure to check case!
+Hillsboro
+What city do you want to fly to?
+Make sure to check case!
+Santa c Clara
+Request is to fly from Hillsboro to Santa Clara
+  Hillsboro -> San Marcos               $145
+  San Marcos -> San Diego               $137
+  San Diego -> Bend                     $951
+  Bend -> Bellingham                    $908
+  Bellingham -> South Gate              $817
+  South Gate -> Thousand Oaks           $77
+  Thousand Oaks -> Corona               $442
+  Corona -> Chico                       $579
+  Chico -> Spokane                      $22
+  Spokane -> San Jose                   $659
+  San Jose -> Ventura                   $94
+  Ventura -> Hayward                    $19
+  Hayward -> Burbank                    $711
+  Burbank -> Kirkland                   $116
+  Kirkland -> Moreno Valley             $108
+  Moreno Valley -> Norwalk              $318
+  Norwalk -> Santa Clara                $925
+Total Cost ............................ $7028
+Would you like to enter another origin and destination? (y/n)
+n
+Would you like to use different city and flight files? (y/n)
+n
+Exiting...
+[?2004h]0;fish /Users/cadenkeese/documents/github/285_proj3[30m(B[m[2m⏎(B[m                                                                               ⏎ [Kcadenkeese@Cadens-MacBook-Pro [32m~/d/g/285_proj3[30m(B[m> [Ke[91me[30m(B[m[38;5;240mxit[30m(B[m[91mx[38;5;240mit[30m(B[m[1mex(B[m[38;5;240mit[30m(B[m[1mi(B[m[38;5;240mt[30m(B[m[91mexi[38;5;240mt[30m(B[m[91mt[30m(B[m[1mexit(B[m
+[30m(B[m[?2004l]0;exit /Users/cadenkeese/documents/github/285_proj3[30m(B[m[30m(B[m[?2004l
+Script done on Tue May  7 00:35:00 2019

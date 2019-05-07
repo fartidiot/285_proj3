@@ -9,11 +9,13 @@
      private int cost;
      private String destination;
      private CityEdge next;
+     private int index;
 
      // Constructors
-     public CityEdge(String destination, int cost) {
+     public CityEdge(String destination, int cost, int index) {
          this.cost = cost;
          this.destination = destination;
+         this.index = index;
      }
 
      // Getters
@@ -30,9 +32,31 @@
          return next;
      }
 
+     public int getIndex() {
+         return index;
+     }
+
      // Setters
 
      public void setNext(CityEdge next) {
          this.next = next;
      }
+
+
+     @Override
+     public String toString() {
+         StringBuilder sb = new StringBuilder();
+         sb
+           .append("\t-> ")
+           .append(destination)
+           .append(":")
+           .append(cost)
+           .append("\n");
+         if(next != null){
+             sb.append(next.toString());
+         }
+         return sb.toString();
+     }
+
+
  }
